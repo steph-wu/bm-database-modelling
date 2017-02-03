@@ -1,6 +1,6 @@
 class Event < ApplicationRecord
 
-  belongs_to :guests
+  has_and_belongs_to_many :guests
   belongs_to :hosts
-    
+
 end
